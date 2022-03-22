@@ -23,5 +23,14 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// import FilterElement from '../../fixtures/elementMapper'
+// const fe = new FilterElement()
+
 import 'cypress-fill-command'
-import FilterElement from '../fixtures/elementMapper'
+// cypress.Command.add('clickAnyElement', function(){
+//     cy.get(element).should('be.visible').click();
+// })
+
+// cypress.Command.add('filterByCategory', function(){
+//     cy.clickAnyElement(fe.filterB )
+// })

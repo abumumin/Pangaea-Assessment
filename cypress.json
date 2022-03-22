@@ -2,5 +2,8 @@
     "baseUrl": "https://store.luminskin.com/products",
     "defaultCommandTimeout" : 30000,
     "viewportHeight": 900,
-    "viewportWidth" : 1500
+    "viewportWidth" : 1500,
+    "reporter": "cypress-mochawesome-reporter",
+    "videoUploadOnPasses": false,
+    "screenshotsFolder": "cypress/reports/screenshots"
     } 

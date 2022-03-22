@@ -15,10 +15,14 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-mochawesome-reporter/register'
 import './PageObjectModel/filter.action'
-//import './PageObjectModel/productListPage.action'
-// Alternatively you can use CommonJS syntax:
-// require('./commands')
+import './PageObjectModel/signUp.action'
+import './PageObjectModel/logIn.Action'
+
+//Alternatively you can use CommonJS syntax:
+
+ require('./commands')
 beforeEach(function() {
     cy.visit('/')
 })
